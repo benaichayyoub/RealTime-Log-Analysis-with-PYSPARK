@@ -53,17 +53,15 @@ One potential use case for this project is analyzing customer behavior to identi
 The log generation script continuously generates random log entries representing customer activities, including details such as HTTP status, URLs, paths, and IP addresses.
 ![Alt Text](viz.png)
 
-![Alt Text](viz2.png)
-![Alt Text](visualisation.png)
-
-
 The PySpark streaming script reads the log entries in real-time, processes them using Spark Streaming, and extracts relevant information, including the visited websites.
 
 The processed log data, including the visited websites, is stored in Elasticsearch.
+![Alt Text](viz2.png)
 
 Kibana connects to Elasticsearch and provides a visual interface for exploring and analyzing the data. You can create custom visualizations and dashboards to gain insights into customer behavior.
 
 To identify the most visited websites, you can use Kibana's visualization capabilities. For example, you can create a bar chart or a data table that shows the count of visits for each website. This visualization can be sorted in descending order to identify the top visited websites.
+![Alt Text](visualisation.png)
 
 By regularly monitoring and analyzing the most visited websites, your company can make informed decisions about website improvements, content prioritization, marketing campaigns,
 
